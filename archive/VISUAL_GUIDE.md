@@ -391,7 +391,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Step 12: Coordination Strategy (Group Work)
+## Step 13: Coordination Strategy (Group Work)
 
 ### The Golden Rule: **PULL → EDIT → COMMIT → PUSH**
 
@@ -486,7 +486,7 @@ Step 4: PUSH (Send to GitHub)
 
 ---
 
-## Step 13: Division of Labor (Group Work)
+## Step 14: Division of Labor (Group Work)
 
 ### Suggested Section Assignments
 
@@ -530,7 +530,7 @@ Step 4: PUSH (Send to GitHub)
 
 ---
 
-## Step 14: Handling Merge Conflicts (Group Work)
+## Step 15: Handling Merge Conflicts (Group Work)
 
 ### Prevention is Best!
 
@@ -647,7 +647,7 @@ Option C: Combine both (best option!)
 
 ---
 
-## Step 15: Preview Your Work
+## Step 16: Preview Your Work
 
 ### Checking Your Portfolio Before Publishing
 
@@ -666,7 +666,7 @@ Option C: Combine both (best option!)
 
 ---
 
-## Step 16: Enable GitHub Pages
+## Step 17: Enable GitHub Pages
 
 ### Publishing Your Portfolio to the Web
 
@@ -693,7 +693,7 @@ Option C: Combine both (best option!)
 
 ---
 
-## Step 17: Get Your URL
+## Step 18: Get Your URL
 
 ### Your Portfolio Is Live!
 

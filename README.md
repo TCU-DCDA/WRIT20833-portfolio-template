@@ -1,63 +1,55 @@
 # WRIT 20833 Portfolio Template
 
-**"When Coding Meets Culture" Final Project Template**
+**"When Coding Meets Culture: Developing Data-Driven Opinions"**  
+Final Project Web Portfolio Component
 
-This template provides everything you need to create a professional web portfolio for your digital humanities research project. Perfect for showcasing your text analysis, sentiment analysis, and topic modeling work with data visualizations and critical reflection.
+## About This Template
+
+This template is designed specifically for WRIT20833 students completing their final digital humanities research project. It provides a professional web portfolio structure for the **Web Portfolio (HTML/CSS)** deliverable described in the [Final Project Requirements](https://tcu-dcda.github.io/WRIT20833-2025/WRIT20833_Final_Project_Requirements.html).
+
+### Project Context
+
+Your final project explores **what happens when coding meets culture**, integrating:
+- **Term frequency analysis** - Pattern detection in large text datasets
+- **Sentiment analysis (VADER)** - Emotional tone and polarity measurement  
+- **Topic modeling (Gensim)** - Thematic structure discovery
+- **Traditional humanities methods** - Close reading, cultural interpretation, critical reflection
+
+This portfolio template helps you present these integrated findings to public audiences, demonstrating how computational and humanities approaches reveal insights that neither could discover alone.
 
 ---
 
-## Quick Start
+## Getting Started
 
-**Choose your workflow:**
-- 📖 **[VISUAL_GUIDE.md](VISUAL_GUIDE.md)** - Complete step-by-step tutorial with visuals (best for groups)
-- ⚡ **[QUICK_START.md](QUICK_START.md)** - Fast reference guide (5-minute setup)
+**Choose your setup guide:**
+- 📖 **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Web developer and contributor setup (GitHub Desktop + VS Code)
+- ⚡ **[QUICK_START.md](QUICK_START.md)** - Fast reference for content editing (5 minutes)
 - 👨‍🏫 **[INSTRUCTOR_SETUP.md](INSTRUCTOR_SETUP.md)** - For instructors setting up the template
 
-### Use as GitHub Template (Recommended)
+### How Final Project Deliverables Connect to This Portfolio
 
-**All editing happens in your web browser - no downloads needed!**
+| Final Project Component | Portfolio Connection |
+|------------------------|---------------------|
+| **Research Essay** (1500-2000 words) | Portfolio sections mirror essay structure: Research Question, Methods, Findings, Integration & Reflection |
+| **Python Notebooks** (.ipynb files) | Link to your GitHub repository containing Colab notebooks; embed code snippets and visualizations |
+| **Dataset Documentation** (CSV + data biography) | Data & Methods section documents sources, collection ethics, preparation steps |
+| **Web Portfolio** (HTML/CSS) | **This entire template IS your web portfolio deliverable** |
 
-1. **Click "Use this template"** button at top of this repository (green button)
-2. **Create your repository:**
-   - Name it: `your-project-name` (use hyphens, all lowercase)
-   - Description: Your project title in plain English
-   - Make it **Public** (required for GitHub Pages)
-   - Click **"Create repository from template"**
-3. **For groups: Designate one person as repository owner**
-   - This person creates the repository from the template
-   - Then adds teammates as collaborators (Settings → Collaborators)
-4. **Clone with GitHub Desktop:**
-   - Click green "Code" button → "Open with GitHub Desktop"
-   - Choose where to save on your computer
-   - Click "Clone"
-5. **Edit files locally:**
-   - Open in VS Code or your preferred text editor
-   - Edit `index.html` to add your content
-   - Save changes
-6. **Commit and push with GitHub Desktop:**
-   - Review changes in GitHub Desktop
-   - Add commit message (e.g., "Add research question")
-   - Click "Commit to main"
-   - Click "Push origin"
-7. **Upload visualizations:**
-   - Save PNG files to `images/` folder
-   - Commit and push through GitHub Desktop
+### Template Workflow
 
-### Alternative: Web-Only Workflow
+**For Groups (Recommended):**
+1. **Designate one person as repository owner** to create repository from this template
+2. **Owner adds collaborators** (Settings → Collaborators → Add teammates by GitHub username)
+3. **All team members clone using GitHub Desktop** (File → Clone Repository)
+4. **Edit locally in VS Code**, commit, and push changes through GitHub Desktop
+5. **Coordinate sections** to avoid merge conflicts (see Working as a Group section)
 
-If you prefer to edit directly on GitHub (no downloads):
-
-1. **Click "Use this template"** (same as above)
-2. **Edit files directly on GitHub:**
-   - Click `index.html` in your repository
-   - Click the ✏️ (pencil) icon to edit
-   - Make your changes
-   - Scroll down and click "Commit changes"
-3. **Upload visualizations:**
-   - Click into `images/` folder
-   - Click "Add file" → "Upload files"
-   - Drag PNG files from your computer
-   - Click "Commit changes"
+**For Individuals:**
+1. Click **"Use this template"** button (green button at top of repository)
+2. Name your repository (e.g., `sentiment-analysis-taylor-swift`)
+3. Make it **Public** (required for GitHub Pages)
+4. Clone with GitHub Desktop and open in VS Code
+5. Edit `index.html` following the TODO markers
 
 ---
 
@@ -93,13 +85,15 @@ Open `index.html` in your text editor (VS Code recommended) and look for `<!-- T
 
 ### Step 2: Fill in Each Section
 
-| Section | What to Include |
-|---------|-----------------|
-| **Research Question** | Your research question + why it matters + background context |
-| **Data & Methods** | Dataset source, collection method (Instant Data Scraper, API, etc.), sample size, ethical considerations, tools used (Python, VADER, Gensim) |
-| **Results & Analysis** | Visualizations, code examples, sentiment analysis findings, topic modeling results |
-| **Key Findings** | 3-5 numbered discoveries with supporting data, results tables, what surprised you |
-| **Critical Reflection** | How computational + interpretive methods work together, connections to course frameworks (Classification Logic, AI Agency, etc.), limitations, future research |
+Map your research essay content to portfolio sections:
+
+| Portfolio Section | Essay Section | What to Include |
+|------------------|---------------|-----------------|
+| **Research Question** | Overview (100-300 words) + Research Question (200-300 words) | Your question, why it matters, background context, how it evolved from HW5 proposal |
+| **Data & Methods** | Methods (400-800 words) + Dataset Documentation | Data sources, collection methodology, ethical considerations, sample size, preparation process, limitations, tools (Python, VADER, Gensim) |
+| **Results & Analysis** | Findings (300-500 words) | Visualizations from notebooks, code examples demonstrating three base methods, sentiment patterns, topic models, term frequency results |
+| **Key Findings** | Findings (300-500 words) | 3-5 numbered discoveries with supporting data, comparison to initial hypothesis, confidence assessment, gaps that remain |
+| **Critical Reflection** | Integration & Reflection (200-300 words) + Public Presentation Strategy (200-300 words) | How computational and humanities methods integrate, what emerged that close reading alone couldn't reveal, connections to course frameworks, what you'd change, future directions |
 
 ### Step 3: Add Your Visualizations
 
@@ -336,12 +330,15 @@ Present:
 - Discussion of what surprised you
 
 ### Reflection Section
-Address:
-- Integration of computational + interpretive methods
-- Connections to course frameworks (Classification Logic, AI Agency, etc.)
-- Limitations of your approach
-- Future research directions
-- Your confidence level in conclusions
+Address (from essay requirements):
+- **Integration & Reflection:** How did your project integrate both humanities work and data analytics?
+- **What computational methods revealed** that close reading alone could not
+- **Connections to course frameworks:** Classification Logic, AI Agency, Sacred Boundaries, Collective Memory
+- **Evolution of thinking:** How did your understanding deepen and change through engagement with data?
+- **Public Presentation Strategy:** Design choices for communicating findings to non-academic audiences
+- **Limitations:** What would you change if you repeated the project?
+- **Future directions:** What would you pursue with additional time?
+- **Confidence assessment:** How confident are you in your conclusions and why?
 
 ## Tips for Success
 
@@ -458,19 +455,53 @@ Use this to verify your portfolio is complete:
 
 ## Alignment with Final Project Requirements
 
-This template directly supports all HW5 deliverables:
+This template directly supports all four final project deliverables:
 
-1. **Research Essay** ✅
-   Portfolio sections mirror essay structure (question → methods → findings → reflection)
+### 1. Research Essay (1500-2000 words) ✅
+Portfolio sections align with essay structure:
+- **Overview** → Research Question section
+- **Research Question** → Research Question section  
+- **Methods** → Data & Methods section
+- **Findings** → Results & Analysis + Key Findings sections
+- **Integration & Reflection** → Critical Reflection section
+- **Public Presentation Strategy** → Addressed in reflection
 
-2. **Python Notebooks** ✅
-   Footer links to GitHub repository with Google Colab notebooks
+### 2. Python Notebooks (.ipynb files) ✅
+- Footer links to GitHub repository containing your Colab notebooks
+- Code snippets embedded in Analysis section demonstrate three base methods
+- Visualizations exported from notebooks displayed throughout portfolio
 
-3. **Dataset Documentation** ✅
-   Data & Methods section provides complete dataset documentation
+### 3. Dataset Documentation (CSV files + data biography) ✅
+Data & Methods section includes:
+- **Data sources** with proper attribution
+- **Collection methodology** (Instant Data Scraper, APIs, manual collection)
+- **Data biography** (250-400 words): ethical considerations, privacy, preparation steps
+- **Sample size** and dataset characteristics
+- **Replication instructions** for transparency
 
-4. **Web Portfolio** ✅
-   This entire template IS the web portfolio
+### 4. Web Portfolio (HTML/CSS) ✅
+**This entire template IS your web portfolio deliverable**, meeting technical standards:
+- Clean, accessible presentation for public audiences
+- Integration of visualizations and analysis from notebooks
+- Demonstrates HTML/CSS skills (structure provided, you customize content)
+- Effective narrative structure communicating insights
+- Professional presentation suitable for academic/career portfolios
+
+---
+
+## Assessment Philosophy Alignment
+
+This portfolio embodies the course's assessment priorities:
+
+> "This project prioritizes earned insight over clean code."
+
+Your portfolio should demonstrate:
+- ✅ **Depth of reflection** - Critical thinking about methods and findings
+- ✅ **Willingness to be surprised** - Evolution from predictions to data-driven opinions
+- ✅ **Critical assessment** - Honest evaluation of results AND analytical tools
+- ✅ **Integration** - Computational analysis working with humanistic interpretation
+
+**Remember:** Being "wrong" in your initial assumptions is not failure—it's evidence of genuine learning. The goal is not to confirm what you already thought, but to discover what emerges when computational analysis challenges cultural interpretation.
 
 ---
 
@@ -526,36 +557,72 @@ A: Absolutely! That's the point. It's yours to keep and showcase.
 
 ---
 
+## Success Criteria (from Final Project Requirements)
+
+A successful portfolio will:
+
+✅ **Execute an intellectually significant research question** that requires both computational and interpretive methods  
+✅ **Demonstrate sophisticated use of all three base analytical methods** (term frequency, sentiment analysis, topic modeling)  
+✅ **Present findings effectively** to both academic and public audiences  
+✅ **Reflect critically** on the integration of digital and traditional humanities approaches  
+✅ **Show clear evolution** from HW5 proposal through final execution  
+
+### What You're Answering
+
+Your portfolio is your answer to the course's central question:
+
+> **What insights emerge when we integrate term frequency analysis, sentiment analysis, and topic modeling with traditional humanities interpretation methods?**
+
+Show us:
+- What computational and humanities approaches **reveal together** that neither could discover alone
+- How you moved from **initial assumptions** to **well-grounded, data-driven opinions**
+- What happens when **coding meets culture** in your specific research domain
+
+---
+
 ## Philosophy: When Coding Meets Culture
 
 This template embodies the course's core principle: **computational methods and cultural interpretation are strongest when integrated.**
 
 Your portfolio should demonstrate:
-- **Technical competence** - You can collect, clean, and analyze data
-- **Critical thinking** - You can interpret results within cultural context
-- **Methodological awareness** - You understand strengths AND limitations
+- **Technical competence** - You can collect, clean, and analyze data with Python, VADER, and Gensim
+- **Critical thinking** - You can interpret results within cultural and theoretical contexts
+- **Methodological awareness** - You understand strengths AND limitations of your tools
 - **Intellectual honesty** - You acknowledge uncertainty and evolution of thought
-- **Public communication** - You can explain technical work to general audiences
+- **Public communication** - You can explain technical work to general audiences effectively
 
-Remember: **Being "wrong" in your initial predictions is evidence of genuine learning.** Focus on showing how your thinking evolved through engagement with data and methods.
+### Your Intellectual Journey Matters Most
+
+From the project requirements:
+
+> "Being 'wrong' in your initial assumptions is not failure—it's evidence of genuine learning and the foundation for developing well-grounded, data-driven opinions."
+
+Focus on showing:
+- How your **thinking evolved** through engagement with data and methods
+- What **surprised you** and challenged your assumptions  
+- How computational analysis **refined and complicated** your cultural interpretation
+- Your growth as both a **computational thinker** and **humanities scholar**
 
 ---
 
-## Credits
+## Credits & Support
 
-**Template created for:**
-WRIT 20833: Introduction to Coding in the Humanities
-Fall 2025 | TCU
+**Template created for:**  
+WRIT 20833: Introduction to Coding in the Humanities  
+Fall 2025 | TCU  
+[View Full Project Requirements](https://tcu-dcda.github.io/WRIT20833-2025/WRIT20833_Final_Project_Requirements.html)
 
 **License:** MIT (you may use, modify, and share freely)
 
-**Questions about the template?**
-- Review course materials in main repository
-- Attend office hours for technical support
-- Collaborate with your group on problem-solving
+**Getting Help:**
+- 📖 Review [SETUP_GUIDE.md](SETUP_GUIDE.md) for technical setup
+- ⚡ Check [QUICK_START.md](QUICK_START.md) for fast content editing
+- 💬 Attend office hours for one-on-one support
+- 👥 Collaborate with your group on problem-solving
+- 📚 Reference course materials and workshop sessions
 
 ---
 
 **Good luck with your project!**
 
-We're excited to see what you discover when coding meets culture in your research. Focus on the journey of learning, not just the destination of being "right." Your intellectual growth is what matters most.
+We're excited to see what you discover when coding meets culture in your research. Remember: this portfolio represents the culmination of your semester-long exploration of digital humanities methods. Make it yours. Tell your story. Show us what you learned.
